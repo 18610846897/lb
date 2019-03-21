@@ -59,7 +59,6 @@ public class SocketClient {
 	
 	public static void main(String[] args) throws Exception {
 		SocketClient client = new SocketClient();  
-//        client.connect1("127.0.0.1", 8280); 
         client.connect1(Config.IP, Config.PORT); 
 	}
 }

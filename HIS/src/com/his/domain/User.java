@@ -22,7 +22,7 @@ public class User {
 
 	private JSONArray item;					//各项返回值(0,1,-1); 共354项，包括项目0
 	
-	private int[] result;					//各项得分， 共353项，不包括项目0。
+	private int[] result;					//各项得分，不包括项目0。
 	
 	public User() {
 		super();
@@ -126,14 +126,14 @@ public class User {
 		} else if (score < 26) {
 			//[11, 25]
 			this.rank = Rank.B;
-		} else if (score < 51) {
-			//[26, 50]
+		} else if (score < 91) {
+			//[26, 90]
 			this.rank = Rank.C;
-		} else if (score < 76) {
-			//[51, 75]
+		} else if (score < 126) {
+			//[91, 125]
 			this.rank = Rank.D;
 		} else {
-			//>=75
+			//>125
 			this.rank = Rank.E;
 		}
 		return this.rank;

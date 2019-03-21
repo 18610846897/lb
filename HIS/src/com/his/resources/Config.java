@@ -19,7 +19,7 @@ public class Config {
 	/**
 	 * 算法总项数, 包括项目0
 	 */
-	public static final int ITEM_LEN = 383;
+	public static final int ITEM_LEN = 392;
 	
 	/**
 	 * 男
